@@ -1,3 +1,4 @@
+#Тесты_для_всех_классов
 import pytest
 from recipes import Ingredient, Recipe, ShoppingList, DietaryRecipe
 
