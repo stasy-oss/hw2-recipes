@@ -1,4 +1,4 @@
-class Ingredient: # === Реализация класса Ingredient ===
+class Ingredient: #Реализация_класса_Ingredient
     def __init__(self, name, quantity, unit):
         self.name = name
         self.quantity = quantity
@@ -26,7 +26,7 @@ class Ingredient: # === Реализация класса Ingredient ===
         return self.name == other.name and self.unit == other.unit
 
 
-class Recipe:
+class Recipe: #Реализация_класса_Recip
     def __init__(self, title, ingredients=None):
         self.title = title
         self.ingredients = ingredients if ingredients else []
