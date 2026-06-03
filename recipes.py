@@ -91,7 +91,7 @@ class ShoppingList:
         return merged
 
 
-class DietaryRecipe(Recipe):
+class DietaryRecipe(Recipe): #Реализация_класса_DietaryRecip
     def __init__(self, title, diet_type, ingredients=None):
         super().__init__(title, ingredients)
         self.diet_type = diet_type
