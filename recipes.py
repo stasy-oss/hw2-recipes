@@ -1,4 +1,4 @@
-class Ingredient:
+class Ingredient: # === Реализация класса Ingredient ===
     def __init__(self, name, quantity, unit):
         self.name = name
         self.quantity = quantity
