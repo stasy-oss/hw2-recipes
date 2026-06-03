@@ -60,7 +60,7 @@ class Recipe: #Реализация_класса_Recip
         return "\n".join(lines)
 
 
-class ShoppingList:
+class ShoppingList: #Реализация_класса_ShoppingList
     def __init__(self):
         self._items = []
 
